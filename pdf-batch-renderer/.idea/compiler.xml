@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exceller" />
+        <module name="fx-u-reporter" />
+        <module name="pdf-batch-renderer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="exceller" target="1.7" />
+      <module name="fx-u-reporter" target="1.7" />
+      <module name="pdf-batch-renderer" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
