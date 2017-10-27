@@ -2,3 +2,6 @@
 *.DS_Store
 #忽略开发工具相关的文件
 .idea
+#忽略target目录下的所有文件
+target/
+target/*

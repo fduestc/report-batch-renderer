@@ -1,4 +1,4 @@
-package com.dofable.reporter;
+package com.dofable.reporter.demo;
 
 import com.dofable.reporter.pdf.PdfRenderer;
 import com.dofable.reporter.util.FileUtils;

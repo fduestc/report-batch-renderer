@@ -9,12 +9,12 @@ A utility for batchly rendering PDF
 > 项目中支持将本地路径中的html文件批量转换为PDF，放入本地文件系统中。
 
 ## 使用说明
-><pre>
+><code><pre>
 >List<String> htmlsPaths = ...; // 定义需要转换的html文件路径列表
 >List<String> outPdfPaths = ...; // 定义生成pdf文件路径列表
->Assert.that(htmlPaths.size() != outPdfPaths.size(),"输入HTML数量和输出PDF数量不一致");
+>Assert.that(htmlPaths.size() == outPdfPaths.size(),"输入HTML数量和输出PDF数量不一致");
 >PdfRenderer.batchRender(htmlPaths, outPdfPaths); // 批量生成PDF
-></pre>
+></pre></code>
 
 ## 性能说明
 |指标	|简易报表（信封）	|复杂报表 |
