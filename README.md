@@ -12,7 +12,7 @@ A utility for batchly rendering PDF
 ><pre>
 >List<String> htmlsPaths = ...; // 定义需要转换的html文件路径列表
 >List<String> outPdfPaths = ...; // 定义生成pdf文件路径列表
->Assert.that(htmlPaths.size() != outPdfPaths.size(),"输入HTML数量和输出PDF数量不一致");
+>Assert.that(htmlPaths.size() == outPdfPaths.size(),"输入HTML数量和输出PDF数量不一致");
 >PdfRenderer.batchRender(htmlPaths, outPdfPaths); // 批量生成PDF
 ></pre>
 
