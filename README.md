@@ -28,3 +28,6 @@ A utility for batchly rendering PDF
 
 ## 代码使用说明
 All for one, one for all. 请随意使用本项目中的所有代码，只是请加上所有作者信息。
+
+
+联系我：wqxiong@foxmail.com
